@@ -1,0 +1,66 @@
+.contenedor-responsiva{
+
+
+    margin-bottom: 75pt;
+    margin-left: 10pt;
+    
+    
+    max-height: 96%;
+    max-width: 80%;
+}
+
+.table{
+    border: 3px solid #000;
+}
+
+table tr td{
+    margin: 0;
+}
+
+.grid-firmas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 60px); /* Puedes ajustar el tamaño aquí */
+    gap: 5px; /* Espacio entre las celdas */
+  
+    /* Definimos las áreas del grid */
+    grid-template-areas:
+      "a b"
+      "c c"
+      "d e"
+      "f f";
+
+}
+.item:nth-child(1) { grid-area: a; }
+.item:nth-child(2) { grid-area: b; }
+.item:nth-child(3) { grid-area: c; }
+.item:nth-child(4) { grid-area: d; }
+.item:nth-child(5) { grid-area: e; }
+.item:nth-child(6) { grid-area: f; }
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+max-height: 40px;
+  }
+
+.forma-campo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.upperline{
+    border-top: 3px solid #000;
+    max-width: 80%;
+    margin-left: 30px;
+
+    
+
+}
+.underline{
+    border-bottom: 3px solid #000;
+    width: 160px;
+    height: 12px;
+    margin-left: 2px;
+}

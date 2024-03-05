@@ -1,0 +1,16 @@
+{
+    "name": "sis18e11/htdocs",
+    "description": "moviles pitic creacion de registros",
+    "authors": [
+        {
+            "name": "abrahamGarcia",
+            "email": "abgarcia@tpitic.com.mx"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
